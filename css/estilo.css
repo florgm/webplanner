@@ -1,0 +1,94 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: url(../img/bg_01.jpg)center fixed no-repeat;
+    background-size: cover;
+} 
+
+.box {
+    
+    text-align: center;
+    width: 500px;
+    background-color: rgba(0,0,0,0.6);
+    padding: 40px;
+    margin: auto;
+    margin-top: 10%;
+    color: white;   
+    
+}
+
+.box img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;   
+}
+
+.box h1{
+    font-family: 'Lobster', cursive;
+}
+
+.box input[type = "text"],.box input[type = "password"],.box input[type = "email"]{
+    text-align: center;
+    border: 2px solid #582479;
+    background: none; 
+    display: block;
+    margin: 20px auto;
+    padding: 25px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius:  24px;
+    transition: 0.6s;
+    margin-bottom: 10px;
+}
+
+
+
+
+.box input[type = "text"]:focus,.box input[type = "password"]:focus,.box input[type = "email"]:focus{  
+    width: 250px;
+    border-color: blueviolet;
+ 
+}
+
+.box a {
+    color: lightseagreen;
+    text-decoration: none;
+}
+
+.modal-footer a{
+    color: white;
+}
+
+.registro img {
+    height: 40px;
+}
+
+i{  
+    margin: 15px;
+    color: white;    
+    font-size: 40px;
+}
+
+i:hover{
+    transition: 0.5s;
+    color: blueviolet;
+}
+
+.btn{
+    background-color: #582479;   
+    border-color: #582479;
+    color: white;
+    border-radius: 24px;
+    padding: 12px;
+    margin: 10px;   
+}
+
+.btn:hover{
+    background-color: blueviolet;
+    border-color: blueviolet;  
+    color: white; 
+}
+
+
+

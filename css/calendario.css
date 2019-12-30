@@ -1,0 +1,227 @@
+body {
+    
+    
+}
+
+.navbar-header a {
+    color: black;
+    font-size: 150%;
+    font-family: 'Lobster', cursive;
+}
+
+.nav-link{
+    margin: 1px;
+    color: white;
+    background-color: #582479;
+    border-radius: 20px;
+    text-align: center;
+  
+}
+
+.nav-link:hover{
+    color: white;
+    background-color: blueviolet;
+    
+}
+
+.verde:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
+.rojo:hover {
+    margin: auto;
+    padding: auto;
+    background-color: red;
+    color: white;
+}
+
+.dropdown-menu {
+    margin: 0px;
+    padding: 0px;
+    border-width: 3px;
+    border-color: blueviolet;
+}
+
+
+.contenedor-tareas{
+    /* font-family: 'montserrat',sans-serif; */
+    background-color: #d59cf1;
+    max-height: 100%;
+    max-width: 100%;
+    margin: auto;
+    padding: 10px;
+    height: 100%;
+    /* overflow-y: scroll; */
+}
+
+.txtb{
+    width: 90%;
+    border: none;
+    border-bottom: 2px solid #000;
+    background: none;
+    padding: 10px;
+    outline: none;
+    font-size: 18px; 
+}
+
+.flecha{
+    float: right;
+    width: 10%;
+}
+
+.contenedor-tareas th{
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+td{
+    width: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    margin: 5px 0;
+    border: "1";
+}
+
+.contenedor-tareas-comp td {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+table{
+    border-collapse: separate;
+    border-spacing: 0px 5px;
+}
+
+.tareas i {
+    float: right;
+    margin-left: 20px;
+    cursor: pointer;
+   
+}
+
+.comp .tareas{
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.fa-trash-alt:hover{
+    color: red;
+}
+
+.fa-check:hover{
+    color:green;
+}
+
+.contenedor-tareas-nocomp{
+    margin-bottom: 10px;
+}
+
+tr
+{
+    border-top:4px solid transparent;
+    border-bottom:4px solid transparent;
+}
+
+tr:hover td
+{
+    border-top:2px solid #582479;
+    border-bottom:2px solid #582479;
+}
+
+
+
+nav{
+    height: 60px;
+    border-bottom: #000 solid;
+}
+
+aside {
+    float: right;
+    height: 93%;
+    width: 25%;
+    overflow: scroll; 
+    background-color: #d59cf1;    
+    border-left: #000 solid;
+}
+
+
+section{
+    float: left;
+    height: 93%;
+    width: 75%;
+}
+
+.navbar .fecha {
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.CalendarioWeb {
+    max-width: 100%;
+    max-height: 100%;
+}
+.container{
+    padding: 15px;
+}
+
+.contenedor-modificar{
+    text-align: center;
+    width: 500px;
+    background-color: rgba(0,0,0,0.6);
+    padding: 40px;
+    margin: auto;
+    margin-top: 10%;
+    color: white;  
+}
+
+
+
+
+/* Responsive */
+@media(max-width:620px){
+    .fecha{
+        display: none!important;        
+    }
+}
+
+@media(max-width:400px){
+    nav {
+        height: 120px;
+    }
+}
+
+
+/* test */
+
+@media(max-width:768px){
+    aside, section{
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Fin responsive */
+
+
+
+
+/* parte nueva */
+
+
+aside .contenedor-tareas legend {
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+aside .contenedor-tareas .campo-tarea{
+    width: 100%;
+}
+
+aside .contenedor-tareas .btn{
+    padding: 0;
+}
+
+
